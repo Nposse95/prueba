@@ -1,0 +1,272 @@
+
+html {
+
+    font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+body {
+    background-color: rgb(132, 55, 55);
+
+}
+
+
+.logotipo {
+
+    display:flex;
+    justify-content:center;
+
+}
+
+.title {
+    display: flex;
+    justify-content:center;
+    font-style: oblique;
+    color:rgb(246, 255, 80)
+   }
+
+.Filanav {
+
+    border: 1px solid white;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    justify-content:space-around;
+    
+   
+ /*position fixed, usar widht al 100% siempre*/
+
+}
+
+.enlaces {
+    font-size: 2rem;
+    color: rgb(246, 255, 80);
+  }
+
+
+.fotos {
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.foto1 {
+
+    padding: 48px;
+ }
+
+
+
+.foto2 { 
+    height: 163px;
+    padding: 48px;
+    width: 330px;
+}
+
+.foto3 {
+    padding: 48px;
+}
+
+
+.texto {
+    color: rgb(246, 255, 80);
+    font-size: 2rem;
+    padding: 20px 40px;
+    margin: 24px 24px;
+    border: 4px solid rgb(246, 255, 80);
+}
+
+
+
+.mapa-video {
+    
+    background-color: black;
+    display: flex;
+    justify-content:center
+}
+
+.mapa { 
+    padding: 36px 36px;
+
+}
+
+.yt { 
+    padding: 36px 36px;
+}
+
+
+
+.redes {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.616);
+
+}
+
+.construccion {
+    
+    font-style: oblique;
+    font-size: 2rem;
+    color: rgb(246, 255, 80);
+}
+
+.linksredes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.insta {
+    text-decoration: none;
+    color: rgb(107, 204, 205);
+    font-size: 2rem;
+}
+
+.face {
+    text-decoration: none;
+    color: rgb(107, 204, 205);
+    font-size: 2rem;
+
+
+}
+
+.lnkdn { 
+    color: rgb(107, 204, 205);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.whatsapp {
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+/*TRABAJOS HTML */
+
+.trabajosh1 {
+
+    margin-bottom: 80px;
+    font-size: 2rem;
+    font-style: oblique;
+    color: rgb(246, 255, 80);
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.textouruguayo {
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 2rem;
+    color: rgb(246, 255, 80);
+    
+}
+.primsection {
+
+    margin-top: 80px;
+    background-color: black;
+    padding: 40px 40px 40px 40px;
+    border: solid 4px rgb(246, 255, 80);
+    display: flex;
+    justify-content: center;
+
+}
+
+.segsection {
+
+    background-color: black;
+    margin-left: 0px;
+    margin-top: 40px;
+    padding: 40px 40px 40px 40px;
+    border: solid 4px rgb(246, 255, 80);
+    display: flex;
+    justify-content: center;
+}
+
+.textopeinada {
+
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 2rem;
+    color: rgb(246, 255, 80);
+
+} 
+
+/*HISTORIA HTML*/
+
+.titulo {
+    font-style: oblique;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: rgb(246, 255, 80);
+    display: flex;
+    justify-content: center;
+
+}
+
+.texto-historia { 
+    
+    font-size: 2rem;
+    color: rgb(246, 255, 80);
+    border: solid 1px rgb(246, 255, 80);
+
+
+}
+
+.muestras {
+    background-color: whitesmoke;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.foto3 {
+    width: 300px;
+}
+
+/*CONTACTANOS HTML*/
+
+.h1contact {
+
+    font-size: 2rem;
+    font-style: oblique;
+    color: rgb(246, 255, 80);
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+
+    font-size: 2rem;
+    padding-right: 20px;
+    color: rgb(246, 255, 80);
+    display: flex;
+    align-items: flex-end;
+
+     
+}
+
+.map {
+
+    display: flex;
+    align-self: flex-start;
+}
+
+.ubi {
+
+    padding-top: 40px; 
+    padding-bottom: 40px;   
+    border: solid 4px rgb(246, 255, 80);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
